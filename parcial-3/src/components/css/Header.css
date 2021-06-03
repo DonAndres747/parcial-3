@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.header a {
+    text-decoration: none;
+    color: #9E9AA7;
+    padding: 1rem;
+    font-size: .9rem;
+    letter-spacing: -.02rem;
+    font-weight: 600;
+    transition: all .3s;
+}
+
+.header a:hover {
+    color: 	#2c2a30;
+}
+
+.mitad1 {
+    display: flex;
+    align-items: center;    
+}
+
+.logo{
+    padding-left: 0;
+    padding-top: 1.5rem;
+}
+
+.heButton{
+    display: flex;
+    align-items: center;
+}
+
+.heButton .signup{
+    display:inline-block;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    background-color: #2ACFCF;
+    border-radius: 1.5rem;
+    color: #fff;
+}
+
+.heButton .signup:hover{
+    background-color: #95e7e7;
+}
+

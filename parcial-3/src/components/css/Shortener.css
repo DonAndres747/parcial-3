@@ -1,0 +1,70 @@
+.input-container {
+    background-color: #f0f1f6;
+    margin-bottom: 0;
+    margin-top: 10rem;
+    padding: 0;
+}
+
+.input-container-inner {
+    background-color: #3B3054;
+    background-repeat: no-repeat;
+    background-image: url(../../Recursos/bg-shorten-desktop.svg);
+    width: 82%;
+    margin: 0 auto;
+    height: 9rem;
+    border-radius: .7rem;
+    text-align: center; 
+    display: flex;
+    position: relative;
+    top: -4.5rem;
+}
+
+.shortener-form {
+    padding: 0;
+    width: 100%;
+    margin: auto;
+}
+
+.shortener-form .entrada{
+    width: 70%;
+    margin-right: 2rem;
+    height: 3.8rem;
+    padding: 1.3rem;
+    border-radius: .8rem;
+    font-size: 1.4rem;
+    border: 1px solid #fff;
+    color: grey;
+    font-weight: 400;
+    outline: 0;
+    color:grey;
+}
+
+
+.shortener-form .submit-button {
+    height: 3.8rem;
+    border: 1px solid hsl(180, 66%, 49%);
+    border-radius: .9rem;
+    background-color: hsl(180, 66%, 49%);
+    padding: .8rem 1.8rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.shortener-form .submit-button:hover {
+    background-color: #95e7e7;
+    border: 1px solid #95e7e7;
+}
+
+
+
+.shortener-form .submit-button div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,49 @@
+.cuerpo{
+    display: flex;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.cuerpoText{
+    width: 50%;
+    margin-top: 5rem;
+    margin-right: 6rem;
+}
+
+.cuerpoText h1{
+    font-size: 4.7rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 5rem;
+    color:#35323e;
+    letter-spacing: -.3rem;
+}
+
+.cuerpoText p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: #b39aa7;
+}
+
+.imagenW {
+width: 40%;
+}
+
+.get-started {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    border: 1px solid #29C7C7;
+    background-color: #2ACFCF;
+    padding: .8rem 2rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.get-started:hover {
+    background-color: #95e7e7;
+    border: 1px solid #95e7e7;
+}

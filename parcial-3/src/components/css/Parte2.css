@@ -1,0 +1,34 @@
+.parte2 {
+    background-image: url(../../Recursos/bg-boost-desktop.svg);
+    background-color: #3B3054;
+    text-align: center;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte2 h2{
+    color:#fff;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.get-started {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    border: 1px solid #29C7C7;
+    background-color: #2ACFCF;
+    padding: .8rem 2rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.get-started:hover {
+    background-color: #95e7e7;
+    border: 1px solid #95e7e7;
+}
